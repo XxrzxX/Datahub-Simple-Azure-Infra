@@ -46,7 +46,7 @@ resource "azurerm_network_security_group" "VmNsg" {
     access                       = "Allow"
     protocol                     = "*"
     source_port_range            = "*"
-    destination_port_range       = "5000"
+    destination_port_range       = "9002"
     source_address_prefix        = "*"
     destination_address_prefix   = "*"
   }
